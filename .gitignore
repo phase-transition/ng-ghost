@@ -7,9 +7,19 @@ lib-cov
 *.pid
 *.gz
 
+# vim stuff
+.swp
+
 pids
 logs
 results
 
 npm-debug.log
 node_modules
+
+# other folders
+dist
+.tmp
+.sass-cache
+app/bower_components
+
