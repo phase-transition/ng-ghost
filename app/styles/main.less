@@ -39,6 +39,9 @@ body {
 	text-shadow: 0 2px 1px rgba(0,0,0,.75);
 }
 
+#real-ball, #real-ball-descr {
+	display: none;
+}
 
 .hero-unit {
 	margin: 50px auto 0 auto;
@@ -68,6 +71,21 @@ body {
 	position: absolute;
 }
 
+.lt-ie7{
+	.round(5px);
+	background-color: rgba(0, 0, 0, 0.4);
+	/*padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;*/
+	padding: 10px;
+	position: relative;
+	left: 50%;
+	margin-left: -155px;
+	width: 300px;
+	color: #fff;
+}
+
 .top-bar {
 	position: fixed;
 	top:100%;
@@ -77,9 +95,11 @@ body {
 	height:70px;
 	@top-bar-color: #2d2c51;
 	background-color:@top-bar-color;
+	z-index: 99;
 	.order-btn{
+		display: none;
 		cursor:pointer;
-		position: relative;
+		position: absolute;
 		top:17px;
 		left:100%;
 		margin-left: -100px;
@@ -102,35 +122,34 @@ body {
 			} 
 		}
 	}
-
-	.logo{
-		//background-image: url("../img/logo-ng-ghost.png");
-		font-size: 1.5em;
-		color: #fff;
-		width: 229px;
-		height: 77px;
+	.mini-logo-container{
 		position: absolute;
-		left:50px;
 		top:25px;
-		//margin-left: -80px;
-		// font-family: "molleregular",sans-serif;
+		left:50%;
+		margin-left: -120px;
+		.logo{
+			//background-image: url("../img/logo-ng-ghost.png");
+			font-size: 1.5em;
+			color: #fff;
+			width: 229px;
+			height: 77px;
+			//margin-left: -80px;
+			// font-family: "molleregular",sans-serif;
 
-		
-
-		font-family: 'molleregular';
-	}
-	div{
-		.uk-float-left;
-	}
-	.descr{
-		@media only screen and (max-width: 450px) {
-			display:none;
+			font-family: 'molleregular';
 		}
-		position: relative;
-		left: 190px;
-		top: 25px;
-		color: #fff;
-		font-size: 0.9em;
+		div{
+			.uk-float-left;
+		}
+		.descr{
+			/*@media only screen and (max-width: 450px) {
+				display:none;
+			}*/
+			//position: relative;
+			margin-left:-85px;
+			color: #fff;
+			font-size: 0.9em;
+		}
 	}
 }
 
@@ -156,9 +175,9 @@ body {
 		.mid{
 			position: relative;
 			left:50%;
-			width: 400px;
+			width: 200px;
 			height: 100%;
-			margin-left: -200px;
+			margin-left: -100px;
 			//background-color: red;
 			.ball{
 				z-index: 30;
@@ -300,9 +319,23 @@ body {
 	}
 
 	.market-content{
+		.uk-float-left;
+		width: 100%;
+		margin-top: 120px;
+		//margin-left:35px;
+		//margin-right:30px;
+		position: relative;
 		.good{
+			.uk-float-left;
+			margin-left: 30px;
 			.round(6px);
-			
+			background-image: url("../img/noise-bg-clear.png");
+			width: 290px;
+			height: 290px;
+			@alpha-shadow:0.4;
+			-webkit-box-shadow: inset 0px 0px 6px 1px rgba(0,0,0,@alpha-shadow);
+			-moz-box-shadow: inset 0px 0px 6px 1px rgba(0,0,0,@alpha-shadow);
+			box-shadow: inset 0px 0px 6px 1px rgba(0,0,0,@alpha-shadow);
 		}
 	}
 }

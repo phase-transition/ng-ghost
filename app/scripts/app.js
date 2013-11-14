@@ -1,13 +1,21 @@
 'use strict';
 
-angular.module('ngStartApp', [])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+/*angular.element(document).ready(function() {
+	console.log(angular.element(document));
+});
+*/
+
+angular.module('ngApp')
+.config(function ($routeProvider, $locationProvider) {
+	var tmpTemplate = $("#view").html();
+	$routeProvider
+	.when('/', {
+		template: tmpTemplate,
+		controller: 'MainCtrl'
+	})
+	.otherwise({
+		redirectTo: '/'
+	});
+
+	$locationProvider.html5Mode(true);
+});
