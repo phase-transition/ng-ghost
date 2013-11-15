@@ -9281,10 +9281,33 @@ body {
   background-image: url("../img/noise-bg.png");
 }
 
+.helv-light {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+@font-face {
+  font-family: 'molleregular';
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Molle-Regular.eot");
+  src: url("fonts/Molle-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Molle-Regular.woff") format("woff"), url("fonts/Molle-Regular.ttf") format("truetype");
+}
+
 .shadowTitle {
   -webkit-text-shadow: 0 2px 1px rgba(0, 0, 0, 0.75);
      -moz-text-shadow: 0 2px 1px rgba(0, 0, 0, 0.75);
           text-shadow: 0 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+.mini-layout {
+  padding: 9px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 #real-ball,
@@ -9580,29 +9603,78 @@ body {
   position: relative;
   float: left;
   width: 100%;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
-.info-content .market-content .good {
+.info-content .market-content .market-row {
   float: left;
-  width: 290px;
-  height: 290px;
-  margin-left: 30px;
-  background-image: url("../img/noise-bg-clear.png");
+  width: 100%;
+  margin-top: 25px;
+}
+
+.info-content .market-content .market-row .good-row {
+  max-width: 980px;
+  max-width: 700px;
+  max-height: 200px;
+  min-width: 250px;
+  min-height: 160px;
+  padding: 0 25px;
+  padding: 13px;
+  margin-right: 10px;
+  margin-right: auto;
+  margin-left: 10px;
+  margin-left: auto;
+  background-color: #fff;
+  -webkit-border-radius: 13px;
+     -moz-border-radius: 13px;
+          border-radius: 13px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+.info-content .market-content .market-row .good-row .table-good {
+  width: 100%;
+  height: 100%;
+}
+
+.info-content .market-content .market-row .good-row .pic-cell {
+  width: 110px;
+  height: 100px;
+}
+
+.info-content .market-content .market-row .good-row .pic-cell .pic {
+  float: left;
+  width: 100px;
+  height: 100px;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
-  -webkit-box-shadow: inset 0 0px 6px 1px rgba(0, 0, 0, 0.4);
-     -moz-box-shadow: inset 0 0px 6px 1px rgba(0, 0, 0, 0.4);
-          box-shadow: inset 0 0px 6px 1px rgba(0, 0, 0, 0.4);
 }
 
-@font-face {
-  font-family: 'molleregular';
-  font-style: normal;
-  font-weight: normal;
-  src: url("fonts/Molle-Regular.eot");
-  src: url("fonts/Molle-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Molle-Regular.woff") format("woff"), url("fonts/Molle-Regular.ttf") format("truetype");
+.info-content .market-content .market-row .good-row .small-line {
+  width: 90%;
+  height: 3px;
+  margin-bottom: 10px;
+  background-color: #808080;
+}
+
+.info-content .market-content .market-row .good-row .title {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font: inherit;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #000;
+}
+
+.info-content .market-content .market-row .good-row .descr {
+  font-size: 12px;
+  color: #151515;
 }
 
 /*
