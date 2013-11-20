@@ -1,0 +1,483 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"info",
+				"info-container"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"str",
+				"strReplace"
+			],
+			[
+				"img-round",
+				"img-round-circle"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"co",
+				"con	console.log"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"fun",
+				"func	unamed function"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"remo",
+				"angular: removeClass"
+			],
+			[
+				"remv",
+				"angular: removeClass"
+			],
+			[
+				"ha",
+				"hack-modal-close"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"op",
+				"options-btn-icon"
+			],
+			[
+				"t",
+				"toggleFooter"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"re",
+				"return"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/andre/Dropbox/web/ghost/core/client/assets/css/hacked.less",
+			"settings":
+			{
+				"buffer_size": 6412,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pakc",
+				"Package Control: Install Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"path",
+				"Copy File Path"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - Default"
+			],
+			[
+				"coff",
+				"Coffee: Compile File"
+			],
+			[
+				"syn coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"syn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"PAK",
+				"Package Control: Install Package"
+			],
+			[
+				"SYN HT",
+				"Set Syntax: HTML"
+			],
+			[
+				"JAVA",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"SYN H",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ry",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syn ry",
+				"Set Syntax: Ruby"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 284.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/andre/Dropbox/web/ghost/core/client/assets/css/hacked.less",
+		"/Users/andre/Dropbox/web/ng-ghost/app/styles/main.less",
+		"/Users/andre/Dropbox/web/ghost/core/client/assets/js/directives/market.js",
+		"/Users/andre/Dropbox/web/ghost/content/themes/casper/post.hbs",
+		"/Users/andre/Dropbox/web/testNode/app/scripts/phpFunc.js",
+		"/Users/andre/Dropbox/web/ghost/content/themes/casper/assets/js/main.js",
+		"/Users/andre/Dropbox/web/ghost/content/themes/casper/assets/js/contollers/main.js",
+		"/Users/andre/Dropbox/web/ghost/content/themes/casper/LICENSE.txt",
+		"/Users/andre/Dropbox/web/ghost/content/themes/casper/assets/js/directives/ng-ghost-clock.js",
+		"/Users/andre/Dropbox/web/testNode/app/scripts/directives/tagMsg.js",
+		"/Users/andre/Dropbox/web/ghost/core/server/views/default.hbs",
+		"/Users/andre/Dropbox/web/ng-ghost/Gruntfile.js",
+		"/Users/andre/Dropbox/web/ghost/content/themes/casper/assets/js/directives/wheater.js",
+		"/Users/andre/Dropbox/web/ghost/core/client/assets/views/market.html",
+		"/Users/andre/Dropbox/web/ghost/core/client/assets/js/controllers/market.js",
+		"/Users/andre/Dropbox/web/ghost/core/server/js/controllers/main.js",
+		"/Users/andre/Dropbox/web/ghost/core/client/assets/js/controllers/main.js",
+		"/Users/andre/Dropbox/web/ghost/core/server/views/partials/navbar.hbs",
+		"/Users/andre/Dropbox/web/ghost/config.js",
+		"/Users/andre/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/andre/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/andre/Dropbox/web/ghost/core/client/assets/css/screen.css",
+		"/Users/andre/Dropbox/web/ghost/core/server/controllers/admin.js",
+		"/Users/andre/Dropbox/web/ghost/content/themes/casper/assets/css/main.css",
+		"/Users/andre/Dropbox/web/ghost/content/themes/casper/assets/css/font-awesome.css",
+		"/Users/andre/Dropbox/web/testNode/Gruntfile.js",
+		"/Users/andre/Dropbox/web/ghost/core/server/views/editor.hbs",
+		"/Users/andre/Dropbox/web/ghost/content/themes/casper/assets/css/screen.css",
+		"/Users/andre/Dropbox/web/ghost/content/themes/casper/assets/css/normalize.css",
+		"/Users/andre/Dropbox/web/ghost/core/built/scripts/vendor.js",
+		"/Users/andre/.work/vagrant-seed/modules/ghost/manifests/nginx.pp",
+		"/Users/andre/.work/vagrant-seed/angularjs-seed-repo/Gruntfile.js",
+		"/Users/andre/.work/vagrant-seed/Vagrantfile",
+		"/Users/andre/.work/vagrant-seed/modules/ghost/files/config/nginx.conf"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/andre/Dropbox/web/ghost/core",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rate",
+			"str_",
+			"\">\n",
+			"Install",
+			"icon",
+			"liver",
+			"80",
+			"tab",
+			"Tahoma",
+			"coff",
+			">\n",
+			"vendor",
+			"Github",
+			"navClass",
+			"blog",
+			"blog.title",
+			"\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/css/main.css\" />",
+			"connect",
+			"watch",
+			".less",
+			"less",
+			"logo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/andre/Dropbox/web/ghost/core/client/assets/css/hacked.less",
+					"settings":
+					{
+						"buffer_size": 6412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main.",
+				"ng-ghost/app/styles/main.less"
+			],
+			[
+				"ng",
+				"ghost/content/themes/casper/assets/js/directives/ng-ghost-clock.js"
+			],
+			[
+				"market",
+				"ghost/core/client/assets/js/directives/market.js"
+			],
+			[
+				"mark",
+				"ghost/core/client/assets/views/market.html"
+			],
+			[
+				"main.js",
+				"ghost/core/server/js/controllers/main.js"
+			],
+			[
+				"nav",
+				"ghost/core/server/views/partials/navbar.hbs"
+			],
+			[
+				"admin.",
+				"ghost/core/server/controllers/admin.js"
+			],
+			[
+				"n",
+				"modules/ghost/files/config/nginx.conf"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/andre/Dropbox/web/ghost/content/themes/casper/assets/css/ghost.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true
+}
