@@ -18,10 +18,6 @@ angular.module('ngApp',[])
 			$(".footer-options .options-btn-icon").removeClass("fa-angle-double-down").removeClass("up").addClass("fa-bars");
 		}
 		toggleFooter=!toggleFooter;*/
-		$location.path()
 	}
-
-
-
 	
 });
