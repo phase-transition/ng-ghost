@@ -4,11 +4,13 @@
 var path = require('path'),
     config;
 
+process.env.PORT = process.env.PORT || '2368';
+
 config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: 'http://localhost:2368',
+        url: 'http://my-ghost-blog.com',
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
@@ -34,9 +36,9 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '127.0.0.1',
+            host: '0.0.0.0',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '2368'
+            port: process.env.PORT
         }
     },
 
@@ -47,17 +49,21 @@ config = {
         url: 'http://my-ghost-blog.com',
         mail: {},
         database: {
-            client: 'sqlite3',
-            connection: {
-                filename: path.join(__dirname, '/content/data/ghost.db')
-            },
+          client: 'postgres',
+          connection: {
+            host: 'ec2-54-204-38-16.compute-1.amazonaws.com',
+            user: 'zimakqgmuhkgfg',
+            password: 'dHLCrQRp9YK-xMFnNBfRqyjlEK',
+            database: 'd5dm1lc8nq1tri',
+            port: '5432'
+        },
             debug: false
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '127.0.0.1',
+            host: '0.0.0.0',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '2368'
+            port: process.env.PORT
         }
     },
 
@@ -99,3 +105,4 @@ config = {
 
 // Export config
 module.exports = config;
+

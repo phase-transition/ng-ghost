@@ -8,7 +8,7 @@ lib-cov
 *.gz
 
 # vim stuff
-.swp
+*.swp
 .DS_Store
 
 pids
