@@ -1,9 +1,9 @@
 <div class="market">
 	<div class="market-title">
-		Components
+		Dashboard
 	</div>
 	<div class="market-board">
-		<div class="market-row" ng-repeat="i in comp">
+		<div class="market-row" ng-repeat="i in comp" onClick="openRow(this)">
 			<div class="cell icon-image">
 				<img src="/ghost/img/{{i.icon}}.png">
 			</div>
@@ -18,7 +18,15 @@
 					<div class="fa fa-cloud-download"></div><div>{{i.rate}}</div>
 					<div>Downloads</div>
 				</div>
-				<!-- <div class="info-small">
+				<div class="downloads2">
+					<div class="fa fa-file-text-o"></div><div>License</div>
+					<div>{{i.license}}</div>
+				</div>
+				<div class="downloads2">
+					<div class="fa fa-check-square-o"></div><div>Coverage</div>
+					<div ng-class="'cover '+{'true':'red'}[i.cover<=40]+' '+{'true':'yellow'}[i.cover<75]+' '+{'true':'green'}[i.cover>=75]">{{i.cover}}%</div>
+				</div>
+				<!--<div class="info-small">
 					<div class="fa fa-file-text-o"></div><div>License</div><div>{{i.license}}</div>
 				</div> -->
 			</div>
@@ -29,8 +37,17 @@
 				</div>
 			</div>
 			<div class="more-infos">
-				
+				<div class="grafic"></div>
 			</div>
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+
+var openRow = function(e){
+	$(e).find(".more-infos").animate({"height":"120px"},300);
+	$(e).animate({"height":"190px"},300);
+	
+}
+
+</script>

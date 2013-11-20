@@ -12,7 +12,7 @@ angular.module('ngApp',[])
 			$('.hack-modal-init').css({"display":"none"});
 			$('.hack-modal-init .hack-modal-background').add('.hack-modal-init .container-modal').css("opacity",0);
 		}
-	}	
-	
-	$scope.openMarket();
+	}
+	//console.log("wadawd");
+	//$scope.openMarket();
 });

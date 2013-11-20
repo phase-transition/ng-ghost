@@ -4,6 +4,7 @@
 		"descr":"Simple top right clock.\r\n- Moon , Sun icons",
 		"rate":32,
 		"license":"MIT",
+		"cover":100,
 		"icon":"clock-app",
 		"price":0
 	},
@@ -12,6 +13,7 @@
 		"descr":"Bottom navbar whit options buttom \r\n- Lightweight",
 		"rate":902,
 		"license":"none",
+		"cover":60,
 		"icon":"nav-icon",
 		"price":90
 	},
@@ -20,6 +22,7 @@
 		"descr":"Images rounded into your markdown pots \r\n -Command [#img-round]yourimg[/img-round]",
 		"rate":12,
 		"license":"MIT",
+		"cover":30,
 		"icon":"round-img",
 		"price":90
 	}

@@ -6,6 +6,9 @@ angular.module('ngApp')
 		//for(var i in data) data[i].descr=nl2br(data[i].descr);
 		$scope.comp=data;
 	});
+
+
+	
 })
 
 .directive('nl2br',function(){
@@ -31,7 +34,7 @@ angular.module('ngApp')
 		controller:'blabla',
 		templateUrl: '/ghost/views/market.html',
 		link: function (scope, element, attrs) {
-			console.log(scope)
+			
 		}
 	};
 });
