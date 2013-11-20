@@ -10,7 +10,7 @@ lib-cov
 *.db
 
 # vim stuff
-.swp
+*.swp
 .DS_Store
 
 pids
