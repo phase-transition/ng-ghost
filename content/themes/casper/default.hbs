@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html x-ng-app="ngApp">
+<head>
+    <base href="/">
+    {{! Document Settings }}
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {{! Styles'n'Scripts }}
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Open+Sans:700,400" />
+
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+</head>
+<body class="{{body_class}}" x-ng-controller="mainC">
+
+    {{! Everything else gets inserted here }}
+    {{{body}}}
+    <div wheater></div>
+
+    <div class="clock">
+        <div x-ng-ghost-clock>
+            <div class="emblem fa fa-moon-o"></div>
+            <div class="clock-container"></div>
+        </div>
+        <div class="bg"></div>
+    </div>
+
+    <footer class="site-footer">
+        <a class="subscribe icon-feed" href="{{@blog.url}}/rss/"><span class="tooltip">Subscribe!</span></a>
+        <div class="inner">
+             <section class="copyright">All content copyright <a href="/">{{@blog.title}}</a> &copy; 2013 &bull; All rights reserved.</section>
+             <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a></section>
+        </div>
+    </footer>
+
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+
+    {{! The main JavaScript file for Casper }}
+    <div class="footer-options">
+        <div class="blog-title">{{@blog.description}}</div>
+        <div class="mini-line"></div>
+        <div class="mini-line2"></div>
+        <div class="options-btn" ng-click="openFooter()">
+            <div class="options-btn-icon fa fa-bars"></div>
+        </div>
+        <div class="footer-menu">
+            <div class="menu-row"><i class="fa fa-facebook"></i>Facebook</div>
+            <div class="menu-row"><i class="fa fa-twitter"></i>Twitter</div>
+            <div class="menu-row"><i class="fa fa-github"></i>Github</div>
+        </div>
+    </div>
+
+    <script src="assets/bower_components/angular/angular.js"></script>
+    <script src="assets/bower_components/jquery/jquery.js"></script>
+    <script src="assets/js/contollers/main.js"></script>
+    <script src="assets/js/directives/ng-ghost-clock.js"></script>
+    <script src="assets/js/directives/hack.js"></script>
+
+
+    <script src="http://localhost:35729/livereload.js?snipver=1" type="text/javascript"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+//TEST SPACE
+
+</script>

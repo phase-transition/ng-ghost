@@ -1,0 +1,36 @@
+<div class="market">
+	<div class="market-title">
+		Components
+	</div>
+	<div class="market-board">
+		<div class="market-row" ng-repeat="i in comp">
+			<div class="cell icon-image">
+				<img src="/ghost/img/{{i.icon}}.png">
+			</div>
+			<div class="cell descr">
+				<div>
+					<div class="title" >{{i.name}}</div>
+					<span nl2br="i.descr.substr(0,60)+'...'"></span>
+				</div>
+			</div>
+			<div class="cell info-container">
+				<div class="downloads">
+					<div class="fa fa-cloud-download"></div><div>{{i.rate}}</div>
+					<div>Downloads</div>
+				</div>
+				<!-- <div class="info-small">
+					<div class="fa fa-file-text-o"></div><div>License</div><div>{{i.license}}</div>
+				</div> -->
+			</div>
+			<div class="cell install-btn-cointainer">
+				<div class="install-btn">
+					<div>{{(i.price==0 ? "Free" : (i.price/100 | currency))}}</div>
+					<div><i class="fa fa-arrow-circle-right"></i></div>
+				</div>
+			</div>
+			<div class="more-infos">
+				
+			</div>
+		</div>
+	</div>
+</div>

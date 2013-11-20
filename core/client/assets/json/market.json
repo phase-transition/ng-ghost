@@ -1,0 +1,26 @@
+[
+	{
+		"name":"Clock light",
+		"descr":"Simple top right clock.\r\n- Moon , Sun icons",
+		"rate":32,
+		"license":"MIT",
+		"icon":"clock-app",
+		"price":0
+	},
+	{
+		"name":"Navbar",
+		"descr":"Bottom navbar whit options buttom \r\n- Lightweight",
+		"rate":902,
+		"license":"none",
+		"icon":"nav-icon",
+		"price":90
+	},
+	{
+		"name":"Image round",
+		"descr":"Images rounded into your markdown pots \r\n -Command [#img-round]yourimg[/img-round]",
+		"rate":12,
+		"license":"MIT",
+		"icon":"round-img",
+		"price":90
+	}
+]
